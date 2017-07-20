@@ -1,0 +1,77 @@
+@charset 'UTF-8';
+/*Document CSS*/
+header .logo a>.logo_img{
+    max-width:100px;
+	border-radius:50%;
+	position:relative;
+	top:-50px;
+}
+.contact .left-form p{
+   width:80%;
+   background:#fff;
+   color:#989898;
+   font-size:15px;
+   padding:10px;
+   line-height:40px;
+   margin-bottom:20px;
+   border-radius:10px;
+
+}
+.header_title{
+   color:#fff;
+   padding:80px 0px 200px 0px;
+   
+
+}
+.header_title>div{
+   margin-bottom:40px
+
+}
+.header_title p{
+   font-weight:300;
+   font-size:20px;
+
+}	
+.desc h4{
+		line-height:30px;
+	}
+.contact .right-form p{
+   background:#fff;
+   color:#989898;
+   font-size:15px;
+   padding:10px;
+   line-height:30px;
+   margin-top:20px;
+   margin-bottom:20px;
+   border-radius:10px;
+}
+#Shows img{
+    max-width:676px;
+    max-height: 508px;
+}
+footer{
+	background:#333;
+	color:#fafafa;
+}	
+footer p{
+   text-align:center;
+   line-height:30px;
+   padding:10px 0px;
+   margin:0px;
+}
+@media(max-width:768px){
+	header .logo a>.logo_img{
+    max-width:100px;
+	border-radius:50%;
+	position:relative;
+	top:0px;
+}
+}
+@media(max-width:667px){
+.header_title{
+   color:#fff;
+   padding:40px 0px 100px 0px;
+   
+
+}
+}
